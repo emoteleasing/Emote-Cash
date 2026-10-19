@@ -1,0 +1,14 @@
+# 项目配置（只填一次，后面每一步都会用）
+
+架构模式=MVVM
+布局方式= Masonry
+布局工具类= Masonry
+字体工具类= HQITFontHelper
+HUD工具类= MBProgressHUD
+网络请求工具类= AFNetworking
+网络图片展示工具类= SDWebImage
+
+# 说明：
+# - 没有的项填「无」（HUD 必填，不能无）
+# - 字体使用工程内 ubuntu/ 第三方字体（Ubuntu），经 HQITFontHelper 取用
+# - 布局/网络没有就用：无
