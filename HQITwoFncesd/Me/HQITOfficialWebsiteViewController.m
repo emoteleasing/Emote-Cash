@@ -8,7 +8,7 @@
 #import <Masonry/Masonry.h>
 
 static NSString * const kHQITOfficialWebsiteTip =
-@"If you run into problems with the app, applications and repayments can also be completed on the official website. Saving the official website address is advised — tap to copy.";
+@"If you run into problems with the app, applications and repayments can also be completed on the official website. Saving the official website address is advised - tap to copy.";
 
 @interface HQITOfficialWebsiteViewController ()
 @property (nonatomic, strong) UIImageView *headerBg;

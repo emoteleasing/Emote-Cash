@@ -111,7 +111,7 @@
 - (void)buildUI {
     CGFloat w = UIScreen.mainScreen.bounds.size.width;
     CGFloat h = [HQITNavigationBarStyle loanBackgroundHeightForWidth:w];
-    NSString *appName = [self appDisplayName];
+    NSString *appName = @"Emote Cash";
 
     self.headerBg = [[UIImageView alloc] init];
     self.headerBg.image = [HQITNavigationBarStyle loanBackgroundImageFittingSize:CGSizeMake(w, h)];
@@ -221,7 +221,7 @@
     }];
 
     UILabel *nameLab = [[UILabel alloc] init];
-    nameLab.text = [appName uppercaseString];
+    nameLab.text = appName;
     nameLab.font = [HQITFontHelper boldFontOfSize:18];
     nameLab.textColor = [self navy];
     nameLab.textAlignment = NSTextAlignmentCenter;
